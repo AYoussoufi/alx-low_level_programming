@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - Entry point of the program
+ * ain - Entry point of the program
  *
  * This function prints a string
  * using the puts function and returns 0 to indicate successful execution.
