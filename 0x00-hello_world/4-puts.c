@@ -1,7 +1,8 @@
 #include<stdio.h>
 /**
- *This is the main function of the program
  *This function print a string to the terminal
+ * @param void specify the main method of c
+ * @return The factorial of the given number.
 */
 int main(void)
 {
