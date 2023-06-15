@@ -1,8 +1,11 @@
 #include<stdio.h>
 /**
- *This function print a string to the terminal
- * @param void specify the main method of c
- * @return The factorial of the given number.
+ * main - Entry point of the program
+ *
+ * This function prints the message "Programming is like building a multilingual puzzle"
+ * using the puts function and returns 0 to indicate successful execution.
+ *
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
