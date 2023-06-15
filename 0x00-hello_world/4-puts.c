@@ -1,6 +1,7 @@
 #include<stdio.h>
-int main() 
+//THIS IS THE MAIN METHOD AND PRINT HELLO WORLD
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
-return 0;
+return (0);
 }
