@@ -15,7 +15,7 @@ putchar(character);
 character++;
 }
 character = 'A';
-while (character != 'a')
+while (character != '[')
 {
 putchar(character);
 character++;
