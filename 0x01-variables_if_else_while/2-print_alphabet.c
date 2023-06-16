@@ -14,6 +14,6 @@ while (character != '{')
 putchar(character);
 character++;
 }
-puts("\n") 
+ puts("\n"); 
 return (0);
 }
