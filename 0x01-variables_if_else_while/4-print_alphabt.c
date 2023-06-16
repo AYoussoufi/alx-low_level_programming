@@ -12,7 +12,7 @@ int main(void)
 char character = 'a';
 while (character != '{')
 {
-if (character != 'q' || character != 'e')
+if (character != 'q' && character != 'e')
 {
 putchar(character);
 }
