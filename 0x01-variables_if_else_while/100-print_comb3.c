@@ -9,16 +9,22 @@
  */
 int main(void)
 {
-int n = '0';
-while (n != ':')
+int x = '0';
+while(x != '9')
 {
-putchar(n);
-if (n != '9')
+int y = '1';
+while(y != ':')
+{
+putchar (x);
+putchar(y);
+if(x != '9')
 {
 putchar (',');
 putchar (' ');
 }
-n++;
+y++;
+}
+x++;
 }
 putchar('\n');
 return (0);
