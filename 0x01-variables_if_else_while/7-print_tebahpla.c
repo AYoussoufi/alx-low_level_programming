@@ -10,7 +10,7 @@
 int main(void)
 {
 char character = 'z';
-while (character != 'Z')
+while (character != '`')
 {
 putchar(character);
 character--;
