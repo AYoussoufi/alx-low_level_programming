@@ -13,7 +13,6 @@ while (character != '{')
 {
 putchar(character);
 character++;
-}
-puts(""); 
+} 
 return (0);
 }
