@@ -17,7 +17,7 @@ while(y != ':')
 {
 putchar (x);
 putchar(y);
-if(x != '9')
+if(x != '8')
 {
 putchar (',');
 putchar (' ');
