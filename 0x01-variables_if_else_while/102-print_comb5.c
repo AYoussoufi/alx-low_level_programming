@@ -1,56 +1,30 @@
-#include<stdio.h>
-#include <stdbool.h>
+#include <stdio.h>
 /**
- * main - The main method of the program
- *
- * This function print numbers from 0 to 9
- * as Base 10
- *
+ * main - prints all possible combinations of two two-digit numbers
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-bool condition = true;
-int a = '0';
-int b = '0';
-int c = '0';
-int d = '1';
-while(condition)
+int i, j;
+for (i = 0; i < 100; i++)
 {
-if(a == '9' && b == '8')
+for (j = 0; j < 100; j++)
 {
-break;
-}
-if (d==':')
+if (i < j)
 {
-d='0';
-c++;
-if (c==':')
-{
-c=a;
-b++;
-d = b + 1;
-if (d==';')
-{
-d='0';
-}
-if(b=='9')
-{
-d='0';
-}
-if(b==':')
-{
-b='0';
-a++;
-}
-}
-}
-putchar(a);
-putchar(b);
+putchar((i / 10) + 48);
+putchar((i % 10) + 48);
 putchar(' ');
-putchar(c);
-putchar(d);
+putchar((j / 10) + 48);
+putchar((j % 10) + 48);
+if (i != 98 || j != 99)
+{
+putchar(',');
+putchar(' ');
+}
+}
+}
+}
 putchar('\n');
-d++;
-};
+return (0);
 }
