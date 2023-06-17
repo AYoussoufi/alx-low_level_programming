@@ -52,5 +52,5 @@ putchar(c);
 putchar(d);
 putchar('\n');
 d++;
-}
+};
 }
