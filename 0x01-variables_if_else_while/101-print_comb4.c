@@ -21,7 +21,8 @@ for (z = y + 1 ; z != ':' ; z++)
 putchar(x);
 putchar(y);
 putchar(z);
-if (x != '7'){
+if (x != '7')
+{
 putchar(',');
 putchar(' ');
 }
