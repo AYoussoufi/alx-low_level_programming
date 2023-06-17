@@ -10,14 +10,14 @@
 int main(void)
 {
 int x = '0';
-while(x != '9')
+while (x != '9')
 {
 int y = x + 1;
-while(y != ':')
+while (y != ':')
 {
 putchar (x);
 putchar(y);
-if(x != '8')
+if (x != '8')
 {
 putchar (',');
 putchar (' ');
